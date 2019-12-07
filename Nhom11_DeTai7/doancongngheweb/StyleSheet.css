@@ -1,0 +1,34 @@
+﻿body {
+}
+.menu01 li {
+    display:inline-block;
+    width:200px;
+    position: relative;
+}
+
+li {
+    display:inline
+} .menu02 li {
+        width:auto;
+        text-align:center;
+    }
+.menu01 li:hover {
+  background-color:#00ff90;
+}
+.menu01 li:hover .menu02 li {
+    background-color:#fff;
+
+    display:block;
+} .menu01 li:hover .menu02 li:hover {
+      background-color:#0026ff;
+    }
+.menu02 li {
+
+    display:none;
+}
+.menu02 {
+    position:absolute;
+}
+.taikhoan:hover {
+    width:150px;
+}
